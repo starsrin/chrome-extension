@@ -3,11 +3,14 @@
     "name": "StartSample",
     "description": "helloworld",
     "version": "1.0",
-    "action":{
+
+    "action":{ 
+        "//": "外觀",
         "default_icon": "icon.png",
         "default_popup": "popup.html",
         "default_title": "Click here!"
     },
+    
     "permissions":[
         "activeTab",
         "scripting"
